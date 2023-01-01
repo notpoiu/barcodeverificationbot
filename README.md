@@ -1,5 +1,5 @@
 # Barcode Verification Discord Bot
-this bot is built using [discord.py](https://pypi.org/project/discord.py/) and utilizes the [pyzbar](https://pypi.org/project/pyzbar/) library to scan barcodes. This bot allows users to verify using a barcode and saves the content and the image in a directory for future reference. However configuring it will be hard if you do not know how to interperet code. I also used **ChatGPT** to help me a bit so thats why there are a lot of comments .-.
+this bot is built using [discord.py](https://pypi.org/project/discord.py/) and utilizes the [pyzbar](https://pypi.org/project/pyzbar/) library to scan barcodes. It allows users to verify using a barcode and saves the content and the image in a directory for future reference. However configuring it will be hard if you do not know how to interperet code. I also used **ChatGPT** to help me a bit so thats why there are a lot of comments .-.
 
 ### Building the project
 first you need to clone the project so type in cmd:
