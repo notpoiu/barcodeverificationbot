@@ -2,4 +2,4 @@ discord.py
 Pillow
 pyzbar
 numpy
-cv2
+opencv-python
