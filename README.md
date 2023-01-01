@@ -1,1 +1,1 @@
-#barcode scanner discord bot
+# barcode scanner discord bot
