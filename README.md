@@ -22,4 +22,7 @@ and to run it type: `python bot.py`
  - [x] ID card image downloader
  - [x] ID card content and barcode type saver in json database 
  - [x] Make the bot robust
+ - [x] Automatic Verification
+ - [ ] Manual Verification
  - [ ] Configuration file to make it easier to configure :o
+
