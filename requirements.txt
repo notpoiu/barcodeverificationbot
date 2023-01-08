@@ -1,5 +1,7 @@
-discord.py
-Pillow
-pyzbar
-numpy
-opencv-python
+aiohttp==3.8.3
+discord.py==2.1.0
+numpy==1.24.0
+opencv_python==4.7.0.68
+Pillow==9.4.0
+pyzbar==0.1.9
+requests==2.21.0
