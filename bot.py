@@ -170,7 +170,7 @@ async def verify(interaction):
     embed=discord.Embed(title="Verify ✅", description="To verify yourself as a legitimate person that comes from **X**, please verify yourself by taking a picture of your identification card.")
     embed.add_field(name="Wait but how should i be verifying?", value="You need to take a picture of your id card and send it into this channel, by doing so the bot will search into the database to verify its you", inline=True)
     embed.add_field(name="Can i do this for multiple accounts?", value="Unfortunately not, if you really need multiple accounts or your other account that was on the server either got terminated or disabled, you can ask for manual verification.", inline=True)
-    embed.set_footer(text="*by pressing verify you are agreeing that our server can store your st anne id card image*")
+    embed.set_footer(text="*by pressing verify you are agreeing that our server can store your id card image*")
     await interaction.response.send_message(embed=embed, view=verificationButtonsEN())
 
 client.run()
