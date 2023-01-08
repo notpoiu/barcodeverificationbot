@@ -167,7 +167,7 @@ class verificationButtonsEN(discord.ui.View): # Create a class called MyView tha
 
 @tree.command(name="verify", description="Verifies you :)",guild=discord.Object(id=998277664290897921)) #Add the guild ids in which the slash command will appear. If it should be in all, remove the argument, but note that it will take some time (up to an hour) to register the command if it's for all guilds.
 async def verify(interaction): 
-    embed=discord.Embed(title="Verify ✅", description="To verify yourself as a legitimate person that comes from sainte anne, please verify yourself by taking a picture of your identification card.")
+    embed=discord.Embed(title="Verify ✅", description="To verify yourself as a legitimate person that comes from **X**, please verify yourself by taking a picture of your identification card.")
     embed.add_field(name="Wait but how should i be verifying?", value="You need to take a picture of your id card and send it into this channel, by doing so the bot will search into the database to verify its you", inline=True)
     embed.add_field(name="Can i do this for multiple accounts?", value="Unfortunately not, if you really need multiple accounts or your other account that was on the server either got terminated or disabled, you can ask for manual verification.", inline=True)
     embed.set_footer(text="*by pressing verify you are agreeing that our server can store your st anne id card image*")
