@@ -8,7 +8,7 @@ first you need to clone the project so type in cmd:
 git clone https://github.com/notpoiu/barcodeverificationbot
 ```
 then open up the folder in command prompt:
-`C:\Users\Admin\Desktop> cd bar `
+`C:\Users\Admin\Desktop> cd barcodeverificationbot `
 
 then install the requirements by typing this:
 ```
