@@ -23,6 +23,7 @@ and to run it type: `python bot.py`
  - [x] ID card content and barcode type saver in json database 
  - [x] Make the bot robust
  - [x] Automatic Verification
- - [ ] Manual Verification
- - [ ] Configuration file to make it easier to configure :o
+ - [x] Manual Verification
+ - [x] Configuration file to make it easier to configure :o
+ - [ ] Multiserver Working Databse
 
