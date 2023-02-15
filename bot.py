@@ -378,6 +378,8 @@ def getLanguage(interaction):
 @tree.command(name="verify", description="Verifies you :)",guild=discord.Object(id=getConfig("serverID"))) #Add the guild ids in which the slash command will appear. If it should be in all, remove the argument, but note that it will take some time (up to an hour) to register the command if it's for all guilds.
 async def verify(interaction):
 
+    
+
     language = NotImplemented
     with open("database.json", "r") as file:
         data = json.load(file)
@@ -387,8 +389,17 @@ async def verify(interaction):
         else:
             language = "null"
 
+    if not (interaction.channel.id == getConfig('channelVerID')):
+        if language == "EN":
+            await interaction.response.send_message("Im sorry but you can't use this command here")
+            return
+        elif language == "FR":
+            await interaction.response.send_message("Je suis désolé mais vous ne pouvez pas utiliser cette commande ici.")
+            return
+
     
     if language == "EN":
+        
         embed=discord.Embed(title="Verify ✅", description=f"To verify yourself as a legitimate person that comes from {getConfig('serverName')}, please verify yourself by taking a picture of your identification card.")
         embed.add_field(name="Wait but how should i be verifying?", value="You need to take a picture of your id card and send it into this channel, by doing so the bot will search into the database to verify its you", inline=True)
         embed.add_field(name="Can i do this for multiple accounts?", value="Unfortunately not, if you really need multiple accounts or your other account that was on the server either got terminated or disabled, you can ask for manual verification.", inline=True)
