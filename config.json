@@ -1,5 +1,6 @@
 {
     "serverName": "Server Name",
     "token": "Bot token",
-    "serverID": 21
+    "serverID": 21,
+    "channelVerID": 69
 }
