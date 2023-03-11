@@ -26,4 +26,4 @@ and to run it type: `python bot.py`
  - [x] Manual Verification
  - [x] Configuration file to make it easier to configure :o
  - [ ] Multiserver Working Databse
-
+ - [ ] Adding a setup command that creates a verifiy channel and creates a not verified and verified role
